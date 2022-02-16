@@ -4,6 +4,8 @@
   <meta charset="utf-8" />
   <meta name="author" content="Lee Knowlton" />
   <meta name="description" content="All about the NYSL" />
+  <meta name="viewport"
+    content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
   <title>About NYSL - Northside Youth Soccer League</title>
   <link href="css/nysl_3.css" rel="stylesheet" type="text/css" />
 </head>
@@ -14,16 +16,28 @@
       <h1>About</h1>
     </div>
               
-    <div id="nav"> 
-    <ul>
-    <li><a href="index.html">Home</a></li>
-    <li>About NYSL</li>
-    <li><a href="registration.html">Registration</a></li>
-    <li><a href="info.html">Game Information</a></li>
-    <li><a href="rules.html">Rules</a></li>
-    <li><a href="contact.html">Contact</a></li>
-    </ul>
-    </div>
+    <header>
+      <div class="menu_bar">
+        <a href="#" class="bt-menu"><img class="iconburguer" src="./menu.svg" /></a>
+      </div>
+      <nav id="nav">
+        <ul>
+
+          <li><a href="#" class="menu_bar">x</a></li>
+          <li><a href="index.html">Home</a></li>
+          <hr class="line">
+          <li>About NYSL</li>
+          <hr class="line">
+          <li><a href="./registration.html">Registration</a></li>
+          <hr class="line">
+          <li><a href="info.html">Game Information</a></li>
+          <hr class="line">
+          <li><a href="rules.html">Rules</a></li>
+          <hr class="line">
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
     
     <div id="bodycontent">
     <h3>Mission</h3>
@@ -36,5 +50,8 @@
     <p class="indent">The Northside Youth Soccer League was established in 1996 to provide athletes residing in Chicago's northside neighborhoods an environment in which to learn and play soccer. To be a member of NYSL, you must be between the ages of 4 - 12 and reside in a Chicago northside neighborhood. NYSL is run by a small full-time staff, and relies on the generous volunteer time of parents and previous league members.</p>
     </div>
   </div>
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+  integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+<script src="./js/script.js"></script>
  </body>
 </html>
